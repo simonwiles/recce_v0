@@ -1,0 +1,22 @@
+label {
+  display: block;
+  margin-bottom: 2rem;
+}
+
+#image {
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: auto;
+  max-width: 100%;
+  position: relative;
+}
+
+img {
+  max-width: 100%;
+}
+
+#canvas {
+  height: 100%;
+  position: absolute;
+  width: 100%;
+}
